@@ -11,6 +11,19 @@
     <name>course-service</name>
 
     <dependencies>
+        <!-- GCP Cloud SQL -->
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>spring-cloud-gcp-starter-sql-mysql</artifactId>
+            <version>3.7.0</version>
+        </dependency>
+
+        <!-- GCP Core -->
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>spring-cloud-gcp-starter</artifactId>
+            <version>3.7.0</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
